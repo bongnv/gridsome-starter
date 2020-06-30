@@ -35,5 +35,9 @@ module.exports = {
         },
       },
     },
+
+    {
+      use: "gridsome-plugin-tailwindcss",
+    },
   ],
 }

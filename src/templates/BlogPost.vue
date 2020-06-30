@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <article>
-      <h1>{{ title }}</h1>
+      <h1 class="font-bold text-4xl text-center">{{ title }}</h1>
       <div v-html="$page.post.content" />
     </article>
   </Layout>
